@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="css/Style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quimi Washington</title>
+    <style>
+        .container main-services-container{
+            width: 90%;
+            margin: auto;
+        }
+
+        /*al contenedor de le aplica display:grid*/
+        .service-item{
+            display: grid;
+            grid-template-rows: 30px 30px 30px;
+            /*altura de las filas*/
+            grid-template-columns: 50% 50% 50%;
+            /* ancho de las columnas*/
+            grid-gap: 15px 20px;
+            /* distancia row column*/
+
+        }
+        .service-item__img {
+            border: 3px solid green;
+            border-radius: 10px;
+            padding: 5px;
+            min-width: 105px;
+            margin-left: 10px;
+            margin-top: 5px;
+        }
+
+        .elemento:nth-child(3) {
+            grid-row: 2/4;
+            grid-column: 1/3;
+        }
+
+        .elemento:nth-child(4) {
+            grid-row: 2/4;
+            grid-column: 3/4;
+
+        }
+
+        .elemento:nth-child(6) {
+            grid-row: 1;
+            grid-column: 1;
+
+        }
+
+        .elemento:nth-child(7) {
+            grid-row: 4/5;
+            grid-column: 2/4;
+
+        }
+
+        .logo {
+            width: 200px;
+            height: 175px;
+            float: left;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h4> House Cleaning Limpieza de oficinas</h4>
+        <nav class="menu_">
+            <ul>
+                <li><a href="QuimiWashington.html">Inicio</a></li>
+                <li><a href="Hector.html">Servicios</a></li>
+                <li> <a href="Formulario_Quimi.html">Formulario</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        <div class="contenedor_parrafo">
+            <img class="Logo" src="Imagen/logo.jpg" alt="logo">
+            <img class="logos2" src="Imagen/logo.jpg" alt="logo">
+            <div class="titulo_1">
+                <h4>Limpieza de Oficinas</h4>
+            </div>
+            <div class="introducción">
+                <p>¡Llegar a tu oficina,es tan increíble como llegar a casa!.<br>
+                    Hemos de decir que cada uno de nuestros detalles son hechos artesanalmente
+                    por diseñadores gráficos quienen eligieron cuidadosa y minusiosamente cada
+                    detalle del arreglo floral.</p>
+
+            </div>
+        </div>
+    </div>
+    <div>
+        <h5 id="titulo_1">¿En que tareas podemos ayudarte?</h5>
+        <p id="Bloque">
+            Lo que se contrata es el tiempo y no las actividades por lo
+            que se pueden intercambiar unas tareas por otras</p>
+    </div>
+    <main>
+        <section>
+            <div class="container main-services-container">
+                <div class="service-item">
+                    <img class="service-item__img" src="Imagen/Barrido.JPG" alt="venta1">
+                    <p>La limpieza que necesitas para tu oficina y empresa</p>
+                    <p>1</p>
+                </div>
+
+                <div class="service-item">
+                    <img class="service-item__img" src="Imagen/Desinfeccion.JPG" alt="venta2">
+                    <p>Servicios 7 días a la semana y disponibles desde 3 horas por visita.</p>
+                    <p>2</p>
+                </div>
+
+                <div class="service-item">
+                    <img class="service-item__img" src="Imagen/Limpiesa_de_Espacios.JPG" alt="venta3">
+                    <p>Reserva cada semana ó eventualmente, pago por transferencia bancaria, depósito o
+                        tarjeta de crédito.</p>
+                    <p>3</p>
+                </div>
+
+                <div class="iservice-item">
+                    <img class="service-item__img" src="Imagen/Limpiesa_de_Vidrios.JPG" alt="venta4">
+                    <p>Limpieza de todas o solo las zonas que tu prefieras en tu oficina.</p>
+                    <p>4</p>
+                </div>
+                <div class="service-item">
+                    <img class="service-item__img" src="Imagen/Recoleccion_de_basura.JPG" alt="venta5">
+                    <p>Nosotros nos encargamos de esos detalles, tu encárgate de tu negocio.</p>
+                    <p>5</p>
+                </div>
+                <div class="service-item">
+                    <img class="service-item__img" src="Imagen/Reposicion_de_producto.JPG" alt="venta6">
+                    <p>No te preocupes más por rellenar los dispensadores de productos de higiene de tu oficina.</p>
+                    <p>6</p>
+                </div>
+                <div class="service-item">
+                    <img class="service-item__img" src="Imagen/Orden_y_limpieza.jpg" alt="venta7">
+                    <p>No te preocupes más por rellenar los dispensadores de productos de higiene de tu oficina.</p>
+                    <p>7</p>
+                </div>
+            </div>
+            <div class="Contenido">
+                <div class="informacion">
+                    <div class="secciones">
+                        <div>
+                            <h2 style="color:red; font-size: 40px;">¿Qué productos se necesitan para la higiene en
+                                oficinas?
+                            </h2>
+                            <p>Para limpiar y desinfectar las oficinas se necesitan detergentes neutros y
+                                desinfectantes preferiblemente en base alcohólica. Estos productos se aplicarán
+                                con la ayuda de mopas y bayetas de microfibra.
+                                Las oficinas también deben equiparse con dispensadores de gel hidroalcohólico,
+                                jabón o papel secamanos, entre otros.
+                                Los contenedores y papeleras resultarán esenciales para mantener el orden de los
+                                espacios y la higiene general de las oficinas. </p>
+                        </div>
+                        <div><img src="Imagen/Detergente_neutro.jpg" alt="Secciones"> </div>
+                    </div>
+                    <div class="secciones">
+                        <div>
+                            <h2 style="color:#757575; font-size: 40px;">¿Cómo limpiar los suelos en las oficinas?</h2>
+                            <p>Se recomienda limpiar el suelo en primer lugar. ¿El motivo? Cuando barremos
+                                levantamos mucho polvo y partículas de suciedad que, de una forma u otra,
+                                acaban depositándose sobre los muebles u otras superficies.
+                                Para evitar esparcir la suciedad se recomienda limpiar los suelos
+                                de las oficinas con mopas de microfibra ligeramente humedecidas.</p>
+                        </div>
+                        <div><img src="Imagen/Suelos_oficina.JPG" alt="Secciones"> </div>
+                    </div>
+                    <div class="secciones">
+                        <div>
+                            <h2 style="color: rgb(70, 46, 126); font-size: 40px;">¿Cómo limpiar los equipos informáticos
+                                y
+                                los
+                                dispositivos electrónicos?</h2>
+                            <p>Para su limpieza usaremos toallitas de tejido no tejido impregnadas o
+                                bayetas de microfibra, combinándolas con soluciones desinfectantes en base
+                                alcohólica.
+                                El alcohol es un compuesto eficaz contra virus y bacterias y destaca por su
+                                rápida evaporación tras su aplicación.</p>
+                        </div>
+                        <div><img src="Imagen/Dispositivos.JPG" alt="Secciones"> </div>
+                    </div>
+                    <div class="secciones">
+                        <div>
+                            <h2 style="color:#5b6acf; font-size: 40px;">Recomendaciones para la higiene personal en las
+                                oficinas
+                            </h2>
+                            <p>La higiene personal es una acción muy necesaria para prevenir contagios víricos
+                                en las oficinas.
+                                Para fomentarla se recomienda colocar dispensadores de gel hidroalcohólico en
+                                puntos estratégicos y ofrecer botellas de desinfectantes para las manos a los
+                                trabajadores.
+                                Además, las organizaciones también pueden abastecer al personal con mascarillas
+                                desechables durante la jornada de trabajo.</p>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- 13 -->
+                <section class="video">
+                    <h4>PROCEDIMIENTO LIMPIEZA DE OFICINAS </h4><br>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/xmQ9cmf4Mek"
+                        title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </section><br>
+
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+
+        <div class="footer-logo">
+            <img src="Imagen/logo.jpg" alt="Logo-foot">
+        </div>
+
+        <div class="about-us">
+            <h3>Nosotros</h3>
+            <p>Si eres un emprendedor o profesional<br> independiente y estas comenzando un negocio,
+                <br>esta es la mejor opción para ti y tu presupuesto.
+            </p>
+        </div>
+
+        <div class="contact-us">
+            <h3>Contáctenos</h3>
+            <ul>
+                <li><span><img src="#" alt=""></span>(04) 2123456</li>
+                <li><span><img src="#" alt=""></span>House Cleaning@gmail.com</li>
+                <li><span><img src="#" alt=""></span>9 de octubre Calle 2</li>
+            </ul>
+        </div>
+
+        <div class="working-hours">
+            <h3>Horario de atención</h3>
+            <p>08:00 AM - 16:00 PM</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>

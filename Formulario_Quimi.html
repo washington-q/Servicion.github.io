@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limpieza de Oficinas</title>
+    <link rel="stylesheet" href="css/EscribenosJS.css">
+</head>
+<body>
+    <header>
+        <div class="header-logo">
+            <img src="Imagen/logo.jpg" alt="Logo">
+        </div>
+        <nav class="header-navbar">
+            <ul>
+                <li><a href="Quimi_Oficina.html">Inicio</a></li>
+                <li><a href="Hector.htm">Nosotros</a></li>
+                <li><a href="">Servicios</a></li>
+                <li><a href=""></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!--Campos del Formulario-->
+        <h1 class="h">Escribenos</h1>
+        <form class="formulario">
+
+            <div class="campos">
+                <label>Sus Nombres: </label>
+                <input type="text" placeholder="Ingrese sus nombres" name="nombre" id="nombre">
+            </div>
+
+            <div class="campos">
+                <label>Sus Apellidos: </label>
+                <input type="text" placeholder="Ingrese sus apellidos" name="apellidos" id="apellido">
+            </div>
+
+            <div class="campos">
+                <label>Correo electronico: </label>
+                <input type="email" placeholder="Ingrese su correo Electronico" name="email" id="email">
+            </div>
+
+            <div class="campos">
+                <label>Esrciba su Teléfono: </label>
+                <input type="text" name="telefono" placeholder="Número teléfonico" id="tel">
+            </div>
+
+            <div class="campos">
+                <label>Asunto: </label>
+                <input type="text" placeholder="Motivo de su mensaje" name="asunto" id="asunto">
+            </div>
+
+            <div class="campos">
+                <label>Escriba su mensaje: </label>
+                <textarea name="mensaje" id="mensaje" rows="2"></textarea>
+            </div>
+
+            <div class="sexo">
+                <label>Sexo: </label>
+                <input type="radio" name="genero" value="h" id="hm"> Hombre
+                <input type="radio" name="genero" value="m" id="mj"> Mujer
+            </div>
+
+
+            <div class="seleccionar">
+                <label>¿Cuál es tu sucursal más cercana?: </label>
+                <select name="sucursal" id="sucursal">
+                    <option value="0">Seleccionar</option>
+                    <option value="1">Samborondon</option>
+                    <option value="2">Cuenca</option>
+                    <option value="3">Loja</option>
+                    <option value="4">Ceibos</option>
+                </select>
+
+            </div>
+
+
+            <div class="boton">
+                <p>
+                    <input type="submit" value="Enviar">
+                </p>
+            </div>
+        </form>
+    </main>
+    <!--Script-->
+    <script src="js/validacionQuimi.js"></script>
+
+    <footer class="footer">
+
+        <div class="footer-logo">
+            <img src="Imagen/logo.jpg" alt="Logo-foot">
+        </div>
+
+        <div class="about-us">
+            <h3>Nosotros</h3>
+            <p>Si eres un emprendedor o profesional<br> independiente y estas comenzando un negocio,
+                <br>esta es la mejor opción para ti y tu presupuesto.</p>
+        </div>
+
+        <div class="contact-us">
+            <h3>Contáctenos</h3>
+            <ul>
+                <li><span><img src="#" alt=""></span>(04) 2123456</li>
+                <li><span><img src="#" alt=""></span>House Cleaning@gmail.com</li>
+                <li><span><img src="#" alt=""></span>9 de octubre Calle 2</li>
+            </ul>
+        </div>
+        <div class="working-hours">
+            <h3>Horario de atención</h3>
+            <p>08:00 AM - 16:00 PM</p>
+        </div>
+    </footer>
+</body>
+
+</html>
